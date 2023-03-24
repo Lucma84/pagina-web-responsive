@@ -1,13 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Run Happy" content="Zapatillas molonas" />
+    <meta name="author" content="C&L - Rock the Code" />
+    <meta name="description" content="Run Zapas Site" />
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="preconnect" href="https://res.cloudinary.com" />
+    <link ref="dns-prefetch" href="https://res.cloudinary.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link ref="dns-prefetch" href="https://fonts.googleapis.com" />
+
+    <link rel="me" href="#" />
+    <link rel="canonical" href="#" />
+    <link
+      rel="icon"
+      href="./assets/favicon.png"
+      sizes="48x48"
+      type="image/png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="style" href="./index.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Run Happy</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="cr-section-header">
+      <div class="cr-layout-container">
+        <div class="cr-section-header-layout cr-layout-flex">
+          <!-- HAMBURGUER -->
+          <a href="#" role="link" class="cr-section-header--title">
+            <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/favicon_c3dkni.png" alt="logo" class="cr-logo" />
+          </a>
+          <label class="cr-hamburger-label" for="hamburger">&#9776;</label>
+          <input type="checkbox" class="cr-hamburger" id="hamburger" />
+          <!--  NAVIGATOR -->
+          <nav role="navigation" class="cr-section-nav cr-section-nav-left">
+            <ul class="cr-layout-flex cr-section-header-nav">
+              <li>
+                <a
+                  href="#running"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Running</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#trail-running"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Trail Running</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#asfalto"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Asfalto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#special-editions"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Ediciones especiales</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav role="navigation" class="cr-section-nav cr-section-nav-right">
+            <ul
+              class="cr-layout-flex cr-section-header-nav cr-section-header-nav-right"
+            >
+              <li>
+                <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/user_fz9xgh.png" alt="User icon" class="cr-icons" />
+              </li>
+              <li>
+                <a
+                  href="#"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Iniciar Sesion</a
+                >
+              </li>
+              <li>
+                <span>|</span>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  role="link"
+                  aria-label="#"
+                  class="cr-section-header--nav-link"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="cr-section-hero">
+        <img
+          src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652856/Principal2_ii2opp.jpg"
+          alt="Dark Sun Album Cover"
+          loading="lazy"
+          class="cr-section-hero--banner"
+        />
+      </section>
+      <!--  FEATURED ITEMS -->
+      <section class="cr-section-featured cr-layout-flex">
+        <h2 id="running">Running</h2>
+        <div class="cr-section-featured__gallery cr-layout-flex__gallery">
+            <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/NB_hombre_mujer_nfrpys.png" alt="Zapatillas-New-Balance-FuelCell">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>New Balance<span>FuelCell</span></h1>
+                    <h1 class="cr-card-min-details__price">190 €</h1>
+                  </div>
+                  <a href="https://www.newbalance.es/es/pd/fuelcell-supercomp-pacer/WFCRRV1-41131.html?dwvar_WFCRRV1-41131_style=WFCRRCC" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/NB_Hombre_re2zgj.png" alt="Zapatillas-New-Balance-X Hierro v7">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>New Balance<span>X Hierro v7</span></h1>
+                    <h1 class="cr-card-min-details__price">160 €</h1>
+                  </div>
+                  <a href="https://www.newbalance.es/es/pd/fresh-foam-x-hierro-v7/MTHIERV7-41134.html#dwvar_MTHIERV7-41134_style=MTHIERO7&dwvar_MTHIERV7-41134_width=D&pid=MTHIERV7-41134&quantity=1" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332644/NB_mujer_tlr5sc.png" alt="Zapatillas-New-Balance-Mujer X 1080v12">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>NB Mujer<span>X 1080v12</span></h1>
+                    <h1 class="cr-card-min-details__price">190 €</h1>
+                  </div>
+                  <a href="https://www.newbalance.es/es/pd/fresh-foam-x-1080v12/W1080V12-42824.html#dwvar_W1080V12-42824_style=W108012R&dwvar_W1080V12-42824_width=B&pid=W1080V12-42824&quantity=1" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+        </div>
+    </section>
+    <section class="cr-section-featured cr-layout-flex">
+        <h2 id="trail-running">Trail Running</h2>
+        <div class="cr-section-featured__gallery cr-layout-flex__gallery">
+            <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/Caldera_6_w1hpe5.png" alt="zapatillas-brooks-hombre-Caldera6">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks Hombre<span>Caldera 6</span></h1>
+                    <h1 class="cr-card-min-details__price">150 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/caldera-6-mens-distance-trail-running-shoe/110379.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/Divide_3_vjxb5b.png" alt="zapatillas-brooks-mujer-Divide3">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks Mujer<span>Divide 3</span></h1>
+                    <h1 class="cr-card-min-details__price">110 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/divide-3-womens-running-shoes/120368.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332644/Catamount2_an9nwq.png" alt="zapatillas-brooks-mujer-Catamount2">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks Mujer<span>Catamount 2</span></h1>
+                    <h1 class="cr-card-min-details__price">170 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/catamount-2-womens-trail-running-shoe/120388.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+        </div>
+    </section>
+    <section class="cr-section-featured cr-layout-flex">
+        <h2 id="asfalto">Asfalto</h2>
+        <div class="cr-section-featured__gallery cr-layout-flex__gallery">
+            <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/Beast_20_gjdbwn.png" alt="zapatillas-asfalto">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks hombre<span>Beast '20</span></h1>
+                    <h1 class="cr-card-min-details__price">160 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/beast-20-mens-road-running-shoe/110327.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332642/Aurora_BL_p8hsod.png" alt="zapatillas-asfalto">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks mujer<span>Aurora-BL</span></h1>
+                    <h1 class="cr-card-min-details__price">200 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/aurora-bl-womens-road-running-shoe/120354.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332746/Glycerin20_t6ubs0.png" alt="zapatillas-asfalto">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks hombre<span>Glycerin 20</span></h1>
+                    <h1 class="cr-card-min-details__price">180 €</h1>
+                  </div>
+                  <a href="https://www.brooksrunning.com/es_es/glycerin-20-mens-neutral-cushioned-running-shoe/110382.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+        </div>
+    </section>
+    <section class="cr-section-featured cr-layout-flex">
+        <h2 id="special-editions">Ediciones Especiales</h2>
+        <div class="cr-section-featured__gallery cr-layout-flex__gallery">
+            <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332644/NB_London_Edition_oiocjx.png" alt="zapatillas-London-edition">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>NB Hombre<span>London Edition</span></h1>
+                    <h1 class="cr-card-min-details__price">240 €</h1>
+                  </div>
+                  <a href="https://www.newbalance.es/es/pd/london-edition-fuelcell-supercomp-elite-v3/MRCELV3-44275.html?dwvar_MRCELV3-44275_style=MRCELLD3" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/NB_London_Edition_Negra_lavqvk.png" alt="zapatillas-London-edition">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>NB Mujer<span>London Edition</span></h1>
+                    <h1 class="cr-card-min-details__price">160 €</h1>
+                  </div>
+                  <a href="https://www.newbalance.es/es/pd/london-edition-fresh-foam-x-880-v13/M880V13-44277.html" class="cr-card-details-btn" target="_blank">Comprar</a>
+                </section>
+              </article>
+              <article class="cr-card">
+                <figure>
+                  <img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679332643/Brooks_Ghost_8_rdpb5s.png" alt="zapatilla-brooks-edicion especial">
+                </figure>
+                <section class="cr-card-details">
+                  <div class="cr-card-min-details">
+                    <h1>Brooks hombre<span>Ghost 8</span></h1>
+                    <h1 class="cr-card-min-details__price">Descat</h1>
+                  </div>
+                  <a href="https://www.podiumrunner.com/events/brooks-unveils-special-edition-berlin-marathon-ghost-8-shoe/" class="cr-card-details-btn" target="_blank">Visitar</a>
+                </section>
+              </article>
+        </div>
+    </section>
+      <!--  VIDEO -->
+      <section class="cr-section-video cr-layout-flex">
+        <div class="cr-section-video__description cr-layout-flex">
+            <button class="cr-button">Running Kids</button>
+        </div>
+        <video autoplay muted class="cr-section-video-media">
+          <source src="./assets/nina-44087.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <!-- FOOTER-->
+        <footer class="cr-footer">
+          <div class="cr-footer-container">
+              <div class="cr-footer-container-left">
+                <p class="cr-footer-container-left__copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+             <a href="#">Run Happy</a>.
+                </p>
+              </div>
+              <div class="cr-footer-container-right">
+                <ul class="cr-footer-container-right__social-icons">
+                  <li><a class="cr-social-icons-facebook" href="https://www.facebook.com/carlos.romo.718" target="_blank"><img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/simbolo-de-la-aplicacion-de-facebook_zj7es4.png" alt="facebook"></a></li>
+                  <li><a class="cr-social-icons-twitter" href="#" target="_blank"><img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/gorjeo_x13asp.png" alt="twitter"></a></li>
+                  <li><a class="cr-social-icons-instagram" href="https://www.instagram.com/romo7carlos/" target="_blank"><img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/instagram_efptou.png" alt="instagram"></a></li>
+                  <li><a class="cr-social-icons-github" href="https://github.com/Lucma84" target="_blank"><img src="https://res.cloudinary.com/dqip8uhet/image/upload/v1679652732/github_qqcjiq.png" alt="github"></a></li>   
+                </ul>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </main>
+  </body>
 </html>
